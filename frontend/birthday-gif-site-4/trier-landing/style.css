@@ -1,0 +1,104 @@
+:root{
+    --body-color: #d6d6d6;
+    --text-color: #f8f9fc;
+    --color-1: #430433;
+    --color-2: #67455e;
+}
+body{
+    background: var(--body-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--text-color);
+    justify-content: center;
+    margin: 0;  
+    /* align-items: center; */
+}
+@font-face {
+    src: url("Magenta Rose.ttf");
+    font-family: magenta-rose;
+}
+.hero{
+    width: auto;
+    height: 400px;
+    background-image: url("./image/trier-evening.webp");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--text-color)
+}
+#title{
+    background-color: var(--color-1);
+    margin: 10px 0 10px 0;
+    /* text-shadow: 2px -1px 1px black; */
+}
+#title-descp{
+    background-color: var(--color-2);
+    /* text-shadow: 1px -1px 1px black; */
+}
+#title, #title-descp{
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 1px -1px 1px black;
+    
+}
+.activity{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-2);
+}
+#top-activities{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#img-places{
+ width: 200px;
+ border-radius: 50%;
+}
+.me{
+    /* width: 400px; */
+    background-color: #87599B;
+
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 10px;
+
+    border-bottom: 5px solid #4e345b;
+}
+.card{
+    display: flex;
+    direction: column;
+}
+.guide-image{
+    width: 200px;
+    border-radius: 20%;
+    padding: 10px;
+}
+.guide-name{
+    font-size: 18px;
+    font-family: magenta-rose;
+    color:#861D31;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px black;
+}
+.guide-experience{
+    font-size: 13px;
+    max-width: 250px;
+    color: black;
+}
+.guide-info{
+    padding: 8px;
+}
+.card-title{
+    font-size: 25px;
+    color: black;
+}

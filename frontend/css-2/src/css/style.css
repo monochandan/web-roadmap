@@ -1,0 +1,120 @@
+:root{
+    --black: #2b2839;
+    --blue: #ddebf8;
+    --purple: #d8cefe;
+    --col-border: #577590;
+    --col-card: #ced4da;
+    --image-border: #4f772d;
+    --name-shadow: #00b4d8;
+}
+body{
+    margin: 20px;
+    /* display: block; */
+    font-family: Georgia, 'Times New Roman', Times, serifS;
+}
+.card-wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 0 auto; /* top/bottom  left/right */
+    text-align: center;
+    width: 400px;
+    /* height: 200px; */
+    justify-content: space-around;
+    /* border: 1px dotted blue; */
+    /* background-color: antiquewhite; */
+    /* background-image: url('./image/funny-back.webp'); */
+    padding: 20px;
+    border-bottom: 6px solid var(--col-border);
+    background: var(--col-card);
+    border-radius: 10px;
+    
+}
+.card:hover{
+    box-shadow: 0px 3px 3px var(--black); 
+    /* width: 450px;
+    height: 250px;
+    background-color: red; */
+    /* width 2s, height 4s, background-color 3s; */
+    /* transition: 450px 2s, 250px 4s, var(--black) 3s;   */
+}
+.image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: 2px solid var(--image-border);
+    /* background-image: url('../../image/img-back.webp'); */
+    /* background-size: cover; */
+    /* box-shadow: 10px 10px var(--image-border); */
+}
+.info{
+    padding-left: 10px;
+    text-align: center;
+    width: 150px;
+    /* height: 200px; */
+}
+.name{
+    text-shadow: 2px 2px 5px var(--name-shadow);
+}
+.italic{
+    font-style: italic;
+}
+/* utility class */
+/* .blue-border{
+    border: 2px blue dotted;
+} */
+/* more about flex design */
+/* .pricing{
+    display: flex;
+}
+.individual-div{
+    width: 200px;
+    height: 300px;
+    border: 1px dotted blue;
+    background-color: antiquewhite;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.enterprise-div{
+    width: 200px;
+    height: 300px;
+    border: 1px dotted blue;
+    background-color: rgb(168, 219, 234);
+    margin-right: 20px;
+    text-align: center;
+} */
+
+/* inheritance example */
+/* body{
+    margin: 20px;
+}
+.bold{
+    font-weight: bold;
+} */
+/* h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+} */
+/* article{
+    font-style: italic;
+    text-align: center;
+} */
+
+/* margin pro  whole body in the class*/
+/* .red-circle{
+    background: #BC002D;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+
+    margin: 40px 0 0 100px;
+
+} */

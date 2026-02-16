@@ -1,0 +1,225 @@
+/* body{
+    background: rgb(125, 86, 2);
+    color: white;
+    font-size: 25px; /* 0 - 100px and beyond*/
+    /* font-weight: bold; /* lighter, normal, bold */
+    /* text-align: center; left, center, right */
+    /* margin-top: 30px; from 0px to upwords */ 
+/* } */
+
+/* google landing page design (my version) */
+/* .parent-container{
+    text-align: center;
+}
+.search-feald{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.image-cont{
+    background: transparent;
+}
+.search-button, .lucky-button{
+    width: 136px;
+    height: 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+.search-button:hover{
+ background-color: rgb(95, 92, 92);
+}
+.lucky-button:hover{
+ background-color: rgb(95, 92, 92);
+} */
+
+/* google landing page (tutrial version) */
+/* display blocks stacks on top */
+/* display inline stack in line */
+/* centering the whole div using  */
+.main{
+    margin-top: 80px;
+    display: block;
+    /* to center the inline buttons */
+    /* text-align: center; */
+}
+.image{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+.search-input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    line-height: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid #dfe1e5;
+    border-radius: 24px;
+   
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px; */
+    /* display: flex;
+    margin-left: 500px;
+    margin-right: 500px; */
+    
+}
+.search-button{
+    /* display: block; */
+    /* flex-direction: column; */
+    /* gap: 5px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    font-weight: bold;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+
+    border: none;
+    font-size: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background: #dfe1e5;
+    cursor:pointer;
+
+}
+.search-button:hover{
+    border: 1px solid black;
+}
+.lucky-button{
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    /* margin-right: auto; */
+    font-weight: bold;
+    border: none;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    background: #dfe1e5;
+    cursor:pointer;
+}
+.lucky-button:hover{
+    border: 1px solid black;
+}
+
+/* creating flag */
+/* body{
+    margin: 8px;
+}
+.red{
+    background: red;
+    height: 100px;
+    /* margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; */
+    /* margin-bottom: 20px; */
+/* }
+.green{
+    background: green;
+    height: 100px;
+    margin-bottom: 20px;
+}
+.blue{
+    background: blue;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */ 
+
+/* centering elements */
+/* first should be display block */
+/* must have width */
+/* margin left/right: auto */
+/* img{
+    display: block;
+    margin-left: auto;
+    width: 200px;
+    margin-right: auto;
+
+} */
+
+/* padding  adding space inside of the div */
+/* margin adding space outside of the div */
+/* border, border-radius */
+/* .card{
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #222222;
+    border-radius: 30px;
+    padding: 20px; */
+    /* padding-top: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 40px; */
+/* } */
+
+/* following button design */
+/* .following{
+    display: block;
+    border: 2px solid #cfd9de;
+    color: #0f1419;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    background: #eef0f1;
+
+}
+.following:hover{
+    background: #89898a;
+} */
+
+
+/* flex box example design */
+/* .nav-wrapper{
+    display: flex;
+    justify-content: center; /* start, center, end, space-around space-between */
+
+/*}
+.item{
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+} */
+

@@ -1,0 +1,114 @@
+1. Completed personal portfolio project (demo)
+    [
+        core HTML tags,
+        Nesting,
+        Buttons,
+        Input Field,
+        Anchor Tag,
+        Document Structure,
+        Lists,
+        Deployment (https://app.netlify.com/teams/mkdas-chandan/projects)
+    ] 
+
+# COLOUR CONTRAST CHECKER - https://userway.org/contrast/?fg=F8F9FA&bg=#dfe1e5
+
+2. CSS 1.0
+    [
+        - CSS SYNTAX
+        - INLINE VS BLOCK (centering the elements)
+        - MARGING (space outside the elements)
+        - PADDING (space inside the elements)
+        - BORDERS (TO DIFFERENCIATE THE ELEMENTS)
+        - DIVS (by default block. DIVIDE THE PAGE FOR MULTIPLE COMPONENTS GROUP)
+        - CLASSES (HELP TO SEPERATELY IDENTIFY MULTIPLE COMPONENTS AND DESIGN THEM)
+        - CENTERING (centering the elements)
+            1. display: block, margin-left/right: auto
+            2. Parent wrapper, display: block, text-align: center
+            3. wrapper container (e.g.- buttons wrapped by div), display: flex, justify-content: center
+    ]
+
+    CSS 2.0
+    [
+        1. Relative path syntax.
+            - ./    --> Start from the same directory the current file is in.
+            - ../   --> start from the parent directory of (the directory above) the current file.
+            - /     --> start from the projects root directory.
+
+        2. More about flex box.
+
+        3. Utility Class - A class for a single css property.
+
+        4. CENTERING ELEMENT.
+            - (apply on wrapper div) - display: flex, margin-left/right: auto.
+        
+        5. CSS INHERITANCE (Write DRYer code, which means dont repeat yourself)
+            - list of properties can be inherited - https://www.w3.org/TR/CSS22/propidx.html
+            - fewer bugs
+
+        6. WEB SAFE FONTS (https://www.w3schools.com/cssref/css_websafe_fonts.php)
+
+        7. Margin & Padding Shorthand.
+         - margin: top right bottom left (as clock wise).
+         - margin: top/bottom right/left [if top, bottom  and right, left has the same value].
+         - trending color palates - [https://coolors.co/palettes/trending]
+         - shadows, hover, transition, animations
+        
+        8. img alt variable.
+
+        9. Color Palettes.
+    ]
+
+3. Web Space [
+    1. good quality image from : https://unsplash.com/.
+    2. Google Font : google.font.org.
+    3. Font Family Inherit to the child component.
+    4. More availiable fonts : https://www.1001fonts.com/
+    5. use @font-face property for external font from https://www.1001fonts.com/
+    6. span tag - it is inline, where div is blicked base
+    7. id - used #id_name  and this is unique, class (.class_name) can be reused again and again.
+    8. Animated image - https://giphy.com/
+    9. Text Shadow - text-shadow: horizontal(+/- , push shadow right/left) vartical(+/-, push shadow top/botom)  blur color;
+    10. HTML lang attribute. (language (standard language code) of the content in an html page). Reach the correct audiance. [https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Global_attributes/lang#inheritance]
+    
+    {
+        1. background image.
+        2. webp format.
+        3. google fonts.
+        4. span tag.
+        5. id and utility classes.
+        6. text-shadow.
+
+    }
+]
+
+
+
+4. b-day gif [
+    1. hexadecimal lcode for emoji [should add this line in head <meta charset="UTF-8">] - https://www.w3schools.com/charsets/ref_emoji_celebration.asp
+    2. align items
+        {
+            display: flex;
+            justify-content: start, center, end, space-around, space-evenly, space-between;
+            align-items: start, center, end;
+        }
+
+    3. 
+    ****     
+        --- CENTERING ELEMENT FOR DIV ---
+        img is inline element so, text-alignment: center work for img or any other default inline elements.
+        BUT, div is block element, fo div text-alignment does not work as It is display: block by default.
+
+        So, for display:block, margin-left/right: auto will center the element,
+        if the height and width is set.
+    *****
+
+    4. hover (pseudo-class).
+        - <a> are typically inline.
+        - specificity - the more specific the css property is, the higher it will be prioratize (for example id).
+
+    5. Gradients (different colour fading from top to bottom or another angales).
+
+    6. flex-direction.
+
+    7. Grouping selector (select multiple elements/tags from html to fullfill DONT REPEAT AGAIN).
+]

@@ -1,0 +1,131 @@
+:root{
+    --light: #FFFFFF;
+    --dark: #747373;
+
+    --background: var(--light);
+    --text: var(--dark);
+
+    /* font style */
+    /* --font: Arial, sans-serif; */
+    --space: 'Orbitron', sans-serif;
+    --scary: 'Creepster', cursive;
+    --military: 'Oswald', sans-serif;
+    --romantic: 'Playfair Display', serif;
+    --cowboy: 'Cinzel', serif;
+    --fantasy: fantasy;
+    --superhero: Impact, sans-serif;
+
+    --font: Arial, sans-serif; 
+
+
+    /* image edge style */
+    /* sharp  */
+    --sharp-border: groove 1em red;
+    --sharp-border-radius: 2em;
+    /* soft */
+    --soft-border: dashed;
+    --soft-border-width: 2px 4px;
+    --soft-border-radius: 40px;
+    /* round */
+    --round-border: dotted;
+    --round-border-width: 10px 4px;
+    --round-border-radius: 10px 40px;
+
+    /* default */
+    --border-radius: none; 
+    --border-width:none;
+    --border: solid 2px;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--background);
+    display: flex;
+    color: var(--text);
+    transition: 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f7faf7; */
+}
+/* google landing page design */
+/* .parent-container{
+    text-align: center;
+}
+.search-feald{
+    width: 400px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.image-cont{
+    background: transparent;
+}
+.search-button, .lucky-button{
+    width: 136px;
+    height: 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    cursor: pointer;
+}
+.search-button:hover{
+ background-color: rgb(95, 92, 92);
+}
+.lucky-button:hover{
+ background-color: rgb(95, 92, 92);
+}
+ */
+.parent-container{
+    flex-direction: column;
+}
+ .profile-img{
+    position:fixed;
+    width: 150px;
+    height: 150px;
+    top: 5px;
+    left:5px;
+    border: var(--border);
+    border-width: var(--border-width);
+    border-radius: var(--border-radius);
+
+}
+.my-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+}
+.input-mail{
+    width:150px;
+    height: 30px;
+    border: 2px solid;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    border-radius: var(--border-radius);
+}
+.join-button{
+    width:160px;
+    height: 30px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    background: var(--dark);
+    color: var(--light);
+    background-color: black;
+    border-radius: var(--border-radius);
+    color: white;
+    cursor: pointer;
+}
+.join-button:hover{
+    background-color: rgb(88, 88, 87);
+}

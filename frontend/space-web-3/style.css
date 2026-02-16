@@ -1,0 +1,94 @@
+:root{
+    /* CSS HEX */
+    --wisteria-blue: #7A95D6ff;
+    --onyx: #15151Bff;
+    --twilight-indigo: #343A53ff;
+    --shadow-grey: #2E2E3Fff;
+    --onyx-2: #0F0E10ff;
+    
+
+}
+body{
+    color: var(--wisteria-blue);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+    margin:0;
+}
+.hero{
+    background-image: url("./images/galaxy.gif");
+    background-size: cover;
+    padding: 10px 0px 40px 0; */
+    /* margin-bottom: 20px; */
+}
+.main{
+    text-align: center;
+}
+.apply-button{
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-weight: 900; /* can take both numerical and named (bold) values */
+    font-family: inherit;
+    color: var(--twilight-indigo);
+}
+
+.underline{
+    /* text-decoration: underline; */
+    border-bottom: 4px solid var(--wisteria-blue);
+}
+#image-spacex{
+    width: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bottom-section{
+    color: var(--wisteria-blue);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Orbitron", sans-serif;
+}
+/* adding a blured bprder5 around h1 */
+h1{
+    text-shadow: 5px -5px  4px black;
+}
+/* use extarnel font from 1001fonts */
+/* @font-face{
+    src: url("Cathedrave.ttf");
+    font-family: Cathedrave;
+}
+h1{
+    font-family: Cathedrave;
+} */
+
+/* span tag */
+/* body{
+    background: whitesmoke;
+    color: whitesmoke;
+    font-family: 'Rammetto One', cursive;
+}
+.card{
+    width: 400px; */
+    /* height: 120px; */
+    /* background: #35654d;
+    border: 5px solid #A3BC71;
+    text-align: center;
+}
+.cta{
+    border: 2px solid #A3BC71;
+    padding: 5px 10px;
+    background: #8F4737;
+} */
+
+/* text shadow example */
+/* body{
+    letter-spacing: 4px;
+    background: #b7111b;
+    color: #fafbf4;
+    text-align: center;
+    font-family: 'kanit', sans-serif;
+} */
+/* h1{
+    font-size: 80px;
+    text-shadow: 5px -5px  10px black;
+} */
