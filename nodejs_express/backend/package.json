@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_express",
+  "version": "1.0.0",
+  "description": "a intro nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node /backend/index.js",
+    "dev": "nodemon /backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monochandan/web-roadmap.git"
+  },
+  "author": "mono",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1"
+  }
+}
